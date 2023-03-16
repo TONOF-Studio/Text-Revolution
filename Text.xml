@@ -2,37 +2,37 @@
 <text>
 	<act_A>
 		<number_1>
-			<context_1>You are the leader of the biggest underground resistence army. How did you came to this position? Asasination, bribery, stealing and many other organised crime.\n</context_1>
-			<context_2>Now, that you are powerfull enough, you start thinking about a revolution. So, you started planing and it all culminated now, with the meeting of all the higherups in your ungerground organisation.\n\n</context_2>
-			<dialog_1>(voices in the croud): Silance! the leader is aproaching!\n(all people stop speaking and they all start looking at the door. They were right, the leader was coming)\n</dialog_1>
-			<dialog_2>General: Dear Leader, glad you are here. We need to sort up the plans for the revolution. We are talking here for houres and we can't get to decide on one. You need to decide.\nRightHandMen: I have placed the plans folder on the desk in your office. If you hadn't the time to read them, we will recap them for you.</dialog_2>
-			<decision_1> (1)> You were to slow on giving me those papers. I want to tell me the plan that I presented last meating.</decision_1>
-			<decision_2> (2)> I glanced over the details on my plan, but didn't had time for any other. General, please tell me your plan.</decision_2>
-			<decision_3> (3)> My plan is briliant and the General's is inteligent. Right Hand Men, what do you have to say?</decision_3>
-			<decision_4> (4)> Of curse I read them all. I have come here to finally decide the curse of action!</decision_4>
+			<context_1>You are the leader of the biggest underground resistance army. How did you come to this position? Assassination, bribery, stealing and many other organized crimes.\n</context_1>
+			<context_2>Now that you are powerful enough, you start thinking about a revolution. So, you start planning and it all culminates now, with the meeting of all the higher-ups in your underground organization.\n\n</context_2>
+			<dialog_1>(voices in the croud): Silence! The leader is approaching!\n(All people stop speaking and they all start looking at the door. They were right, the leader was coming.)\n</dialog_1>
+			<dialog_2>General: Dear Leader, I am glad you are here. We need to sort out the plans for the revolution. We have been talking here for hours and we can't get to decide on one. You need to decide.\nRightHandMan: I have placed the plans folder on the desk in your office. If you didn't have the time to read them, we will recap them for you.</dialog_2>
+			<decision_1> (1)> You were to slow on giving me those papers. I want you to tell me the plan that I presented last meating.</decision_1>
+			<decision_2> (2)> I glanced over the details of my plan, but didn't have time for anything else. General, please tell me your plan.</decision_2>
+			<decision_3> (3)> My plan is brilliant and the General's is intelligent. Right Hand Man, what do you have to say?</decision_3>
+			<decision_4> (4)> Of course I read them all. I have finally come here to decide the course of action!</decision_4>
 		</number_1>
 		<number_2>
-			<dialog_1>(Markus, leader of liberal party in exile):We heared your plan the other day and we wrote it up. It is a good idea to talk with the prime-minister. It is sympathetic with us. He may help us in the revolution! </dialog_1>
+			<dialog_1>(Markus, leader of liberal party in exile):We heard your plan the other day and we wrote it up. It is a good idea to talk with the prime-minister. He is sympathetic with us. He may help us in the revolution! </dialog_1>
 			<decision_2> (2)> Now that I know everything about my plan, I wish to talk with the General about his plan.</decision_2>
-			<decision_3> (3)> My plan is briliant. Right Hand Men, can you remind me how your plan was?</decision_3>
+			<decision_3> (3)> My plan is brilliant. Right Hand Man, can you remind me what your plan was?</decision_3>
 			<decision_4> (4)> Now that I know the details of my plan, I will make the final decision!</decision_4>
 		</number_2>
 		<number_3>
 			<dialog_1> (General) - Your plan is glorious, but I don't think the prime minister will cooperate, due to his friendship with the emperor. We shall need to organise our militia and take power by popular force!
 			</dialog_1>
-			<decision_3> (3)> My plan is briliant and the General's is inteligent. Right Hand Men, what do you have to say?</decision_3>
+			<decision_3> (3)> My plan is brilliant and the General's is intelligent. Right Hand Man, what do you have to say?</decision_3>
 			<decision_4> (4)> Of curse, we need a backup plan. I don't care about the Right Hand Man's plan. I will make my final decision!</decision_4>
 		</number_3>
 		<number_4>
-		    <dialog_1> (Right Hand Man) - We don't have plan for diplomacy, we need force, fast force. Decisive force. We need to imidiatly destroy the empire!
+		    <dialog_1> (Right Hand Man) - We don't have a plan for diplomacy, we need force, fast force. Decisive force. We need to immediately destroy the empire!
 			</dialog_1>
-			<decision_4> (4)> Of curse, like you say.... . They are all ok plans. I will now make my final decision!</decision_4>
+			<decision_4> (4)> Of course, like you say.... . They are all okay plans. I will now make my final decision!</decision_4>
 		</number_4>
 		<number_5>
-		    <dialog_1>(You) - I have decided the final plan. The best. The great. I shall be</dialog_1>
+		    <dialog_1>(You) - I have decided on the final plan. The best. The greatest. It shall be</dialog_1>
 			<decision_1> (1)> MY PLAN!</decision_1>
-			<decision_2> (2)> GENERAL'S PLAN!</decision_2>
-			<decision_3> (3)> RIGHT HAND MAN'S PLAN!</decision_3>
+			<decision_2> (2)> THE GENERAL'S PLAN!</decision_2>
+			<decision_3> (3)> THE RIGHT HAND MAN'S PLAN!</decision_3>
 		</number_5>
 	</act_A>
 	<act_B1>
