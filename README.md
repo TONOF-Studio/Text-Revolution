@@ -1,7 +1,7 @@
 # Textrevolution
 
 
-Ever wandered what it would be like to make a revolution? Strange question to ask on the first date darling, but I will answer. 
+Ever wandered what it would be like to start a revolution? Strange question to ask on the first date darling, but I will answer. 
 
 Destroy the imperial monarchy to replace it with your own version of a dictatorship, or reinstate civilian rule.
 
