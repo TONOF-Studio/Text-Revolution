@@ -2,10 +2,6 @@
 #include <fstream>
 #include <sstream> // for string streams
 #include <string> // for string
-#include <Windows.h> // for input
-
-#include <stdio.h>
-#include <tchar.h>
 
 
 
@@ -29,14 +25,7 @@ short int randomNumber;
 
 // Charter Y - Etc Function
 void clear_screen(char fill = ' ') {
-	COORD tl = { 0,0 };
-	CONSOLE_SCREEN_BUFFER_INFO s;
-	HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
-	GetConsoleScreenBufferInfo(console, &s);
-	DWORD written, cells = s.dwSize.X * s.dwSize.Y;
-	FillConsoleOutputCharacter(console, fill, cells, tl, &written);
-	FillConsoleOutputAttribute(console, s.wAttributes, cells, tl, &written);
-	SetConsoleCursorPosition(console, tl);
+	
 }
 
 // Charter V
@@ -49,12 +38,19 @@ void Fail() {
 
 // Charter A Complete
 
+void Asasination() {
+	std::cout << "(Phone - Assasin) - We have the Right Hand Men cornered, shall we continue?\n(You) - Yes, do what is necessary!\n(Phone) - Aaaaa! aaaa! Ahahaha! Ah... Aaaaa!\n\n";
+	std::cout << "(Phone - Right Hand Men) - You can't kill me! I'm GOD, DESTROYER OF WORLDS!\n";
+	gameEnd = 1;
+	Fail();
+}
+
 void Game2() {
 
 	std::cout << "(General) - Boss, now that we are decided about plans, we need to take the next course of action.\n\n";
 	std::cout << " (1) > Right Hand Man has been very suspicious lately. We need to get him asasinated. Recruit later!\n";
 	std::cin >> AuxChoise;
-	else if (AuxChoise == 1) {
+	if (AuxChoise == 1) {
 		Asasination();
 	}
 	else {
@@ -68,12 +64,12 @@ void Game3() {
 void GAME1() {
 	// Local Variable
 	bool makechoise = false;
-
+	AuxChoise = 0;
 	// Introduction
 	while (aux == false) {
 		switch (AuxChoise) {
 		case 0:
-			std::cout << "temp, 1,2,3,4";
+			std::cout << "temp, chose betwen 1,2,3,4";
 			clear_screen();
 			std::cin >> AuxChoise;
 			break;
@@ -160,8 +156,9 @@ int main() {
 	/* ********** BEFORE-GAME ********** */
 	srand(time(0));
 
-	std::cout << "Press SHIFT to continue\n";
-	if (GetKeyState(VK_SHIFT) & 0x8000/*Check if high-order bit is set (1 << 15)*/)
+	std::cout << "Type 1 to continue\n";
+	std::cin >> AuxChoise;
+	if (AuxChoise = 1)
 	{
 		GAME1();
 	}
