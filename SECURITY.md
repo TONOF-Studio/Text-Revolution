@@ -7,8 +7,6 @@ When reporting a vulnerability, please provide as much information as possible, 
   - Any steps required to reproduce the vulnerability
   - Information on the version of the project that is affected
   - Any mitigations or workarounds that can be used until a fix is available
-  - Security Practices
-  - We take the security of our project seriously and have implemented a number of measures to protect against common vulnerabilities. These include:
 
-Contact Us
+## Contact Us
 If you have any questions about our security practices or policies, please contact us in the discussion tab on github.
