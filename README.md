@@ -1,4 +1,4 @@
-<a href="https://tonof.itch.io/text-revolution">Text Revolution</a>
+<a href="https://tonof.itch.io/text-revolution"><h1>Text Revolution</h1></a>
 <p>Have you ever wondered what it would be like to start a revolution? It's a strange question to ask on a first date, but let's explore it together.</p>
 <p>In Text Revolution, you have the power to destroy the imperial monarchy and replace it with your own version of a dictatorship, or even reinstate civilian rule. The fate of the nation is in your hands.</p>
 <h2>Choose Your Path</h2>
