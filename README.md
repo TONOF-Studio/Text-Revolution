@@ -10,6 +10,3 @@
 <h2>Join the Revolution</h2>
 <p>Text Revolution is currently in development, and we're excited to share more updates with you as they become available. Follow us on GitHub to stay up to date on the latest content and game features.</p>
 <p>Are you ready to join the revolution? The fate of the nation is in your hands.</p>
----
-
-Itch.io page: 
