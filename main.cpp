@@ -11,7 +11,13 @@ std::string story           [100]    = {
                                         ("\nYOU: I chose the....\nGUY: SIR! THE PM WAS ASASINATED!\n\nGENERAL: Horible!\n\nRIGHT-HAND-MAN: Crule!\n\nMARKUS: Damn! My plan is now imposible to achive! NOOO! My GLORY! My PoWeRrrr!!\n\nYOU: Oh, then I must change my choice. It will be...\n\n(1) The second plan\n(2) The third plan\n")
                                         };
      int    choices         [100]    = {1,1,1,3,1};
-     int    destination     [100][4] = {1,2,3,(4,100),5};
+     int    destination     [100][4] = {
+                                        {1},
+                                        {2},
+                                        {3},
+                                        {4, 100},
+                                        {5}
+                                       };
 
 
 // class main variable
@@ -36,11 +42,11 @@ int main(){
 
 void game(){
     clearscreen();
-    while(i >= 0 and i <= 4){
+    while(true){
         std::cout << story[i];
         std::cin  >> decision;
         switch (choices[i]){
-            case 1: // breaks after 2 cycles
+            case 1:
                 if(decision == 1) i=destination[i][0];
                 break;
             case 2:
@@ -54,6 +60,7 @@ void game(){
                 break;
         }
         clearscreen();
+        std::cout << i << " ";
     }
 }
 
