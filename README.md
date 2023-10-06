@@ -29,4 +29,5 @@ Are you ready to join the revolution? The fate of the nation is in your hands.
 | Beta 1 | Beta 2 | Beta 3 | Beta 4 | Beta 5 | Release 1 |
 |--------|--------|--------|--------|--------|-----------|
 |released|released|released|planned |planned |planned    |
-|march 23| june 23| aug 23 |late 23 |early 24|middle 2024| 
+|march 23| june 23| aug 23 |late 23 |early 24|middle 2024|
+|story started|programming started|almost finished story|finished programming|finished story/game|
