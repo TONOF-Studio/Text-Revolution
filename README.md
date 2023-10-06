@@ -30,4 +30,4 @@ Are you ready to join the revolution? The fate of the nation is in your hands.
 |--------|--------|--------|--------|--------|-----------|
 |released|released|released|planned |planned |planned    |
 |march 23| june 23| aug 23 |late 23 |early 24|middle 2024|
-|story started|programming started|almost finished story|finished programming|finished story/game|
+|story started|programming started|almost finished story|finished programming|finished story|finish all planned mechanics|
